@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="login-command-object"
+    errors="1" failures="0" hostname="" id="" package="login-command-object" skipped="3"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Login Page Initial Render" classname="login-command-object">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Try to login with no username or password" classname="login-command-object">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Try to login with a username and no password" classname="login-command-object">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

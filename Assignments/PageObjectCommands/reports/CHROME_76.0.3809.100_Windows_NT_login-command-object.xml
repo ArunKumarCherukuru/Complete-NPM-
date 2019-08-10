@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="login-command-object"
+    errors="0" failures="1" hostname="" id="" package="login-command-object" skipped="0"
+    tests="3" time="9.737" timestamp="">
+  
+    <testcase name="Login Page Initial Render" classname="login-command-object" time="1.041" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with no username or password" classname="login-command-object" time="3.810" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a username and no password" classname="login-command-object" time="4.886" assertions="6">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@error]&gt; contains text: &#34;Password is empty&#34; in 1000 ms. - expected [0;32m&#34;Password is empty&#34;[0m but got: [0;31m&#34;User name or password is not correct.&#34;[0m">    at Page.validateError (D:\nodejs\NightWatch\Assignments\PageObjectCommands\page-objects\commandsLogin.js:20:12)
+    at Object.Try to login with a username and no password (D:\nodejs\NightWatch\Assignments\PageObjectCommands\tests\login-command-object.js:32:8)</failure>
+
+    
+
+    
+
+    <failure message="    at Page.validateError (D:\nodejs\NightWatch\Assignments\PageObjectCommands\page-objects\commandsLogin.js:20:12)">    at Object.Try to login with a username and no password (D:\nodejs\NightWatch\Assignments\PageObjectCommands\tests\login-command-object.js:32:8)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
